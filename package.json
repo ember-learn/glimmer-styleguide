@@ -17,6 +17,7 @@
     "@glimmer/blueprint": "^0.1.12",
     "@glimmer/component": "^0.3.8",
     "@glimmer/resolver": "^0.3.0",
+    "@glimmer/web-component": "^0.1.2",
     "broccoli-asset-rev": "^2.5.0",
     "ember-cli": "github:ember-cli/ember-cli",
     "ember-cli-inject-live-reload": "^1.6.1",
