@@ -1,5 +1,5 @@
 /* jshint node: true */
-const gitBranchName = require('git-branch').sync();
+const gitBranchName = process.env['TRAVIS_BRANCH'];
 
 module.exports = function(deployTarget) {
   var ENV = {
