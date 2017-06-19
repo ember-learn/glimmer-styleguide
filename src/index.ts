@@ -11,7 +11,7 @@ setPropertyDidChange(() => {
 
 app.registerInitializer({
   initialize(registry) {
-    registry.register(`component-manager:/${app.rootName}/component-managers/main`, ComponentManager)
+    registry.register(`component-manager:/${app.rootName}/component-managers/main`, ComponentManager);
   }
 });
 

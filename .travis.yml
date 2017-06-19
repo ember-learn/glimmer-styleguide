@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "7"
+dist: trusty
+sudo: true
+
+addons:
+  chrome: stable
+
+cache:
+  yarn: true
+
+install:
+  - yarn install
+
+script:
+  - echo "We're waiting on glimmer to have tests, until then we'll keep deploying on pushes"
+  # - yarn test
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: node_modules/.bin/ember deploy production --activate --verbose
+  on:
+    all_branches: true
