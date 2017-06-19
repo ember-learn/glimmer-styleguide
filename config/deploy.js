@@ -1,4 +1,5 @@
 /* jshint node: true */
+const gitBranchName = require('git-branch').sync();
 
 module.exports = function(deployTarget) {
   var ENV = {
@@ -24,7 +25,7 @@ module.exports = function(deployTarget) {
       accessKeyId: process.env['AWS_ACCESS_KEY'],
       secretAccessKey: process.env['AWS_SECRET_KEY'],
       bucket: 'api-docs.emberjs.com',
-      prefix: 'glimmer-styleguide',
+      prefix: `glimmer-styleguide/${gitBranchName}`,
       region: 'us-east-1'
     }
   }
