@@ -3,11 +3,7 @@
 const GlimmerApp = require('@glimmer/application-pipeline').GlimmerApp;
 
 module.exports = function(defaults) {
-  let app = new GlimmerApp(defaults, {
-    fingerprint: {
-      enabled: false
-    }    
-  });
+  const app = new GlimmerApp(defaults);
 
   // Use `app.import` to add additional libraries to the generated
   // output files.
