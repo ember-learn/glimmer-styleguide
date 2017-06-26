@@ -31,7 +31,7 @@ $white: white;
 
 .header {
   background-color: rgb(228, 112, 81);
-  background: #dd6a58 url("/images/header.svg") top center no-repeat;
+  background: #dd6a58 url("./images/header.svg") top center no-repeat;
   background-size: cover;
   color: #fff;
   padding: 1rem 0;
@@ -137,7 +137,7 @@ $white: white;
 .header-logo a {
   height: 40px;
   width: 100px;
-  background: url("/images/ember-logo.svg") no-repeat;
+  background: url("./images/ember-logo.svg") no-repeat;
   display: block;
 }
 
@@ -163,7 +163,7 @@ $white: white;
     border-radius: 35px;
     outline: none;
     appearance: none;
-    background: url("/images/search-icon.svg") rgba(white, 0.1) 10px 10px no-repeat;
+    background: url("./images/search-icon.svg") rgba(white, 0.1) 10px 10px no-repeat;
     box-shadow: none;
     font-size: 0.9rem;
     line-height: 35px;
