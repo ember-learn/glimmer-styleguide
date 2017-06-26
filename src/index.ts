@@ -18,4 +18,4 @@ app.registerInitializer({
 app.renderComponent('glimmer-styleguide', containerElement, null);
 app.boot();
 
-initializeCustomElements(app, ['main-footer']);
+initializeCustomElements(app, ['main-footer', 'main-navbar']);
