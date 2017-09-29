@@ -1,5 +1,7 @@
 # glimmer-styleguide
 
+[![Build Status](https://travis-ci.org/ember-learn/glimmer-styleguide.svg?branch=enable-ci)](https://travis-ci.org/ember-learn/glimmer-styleguide)
+
 This README outlines the details of collaborating on this Glimmer application.
 A short introduction of this app could easily go here.
 
