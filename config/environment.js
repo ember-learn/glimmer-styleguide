@@ -1,9 +1,11 @@
 'use strict';
 
 module.exports = function(environment) {
-  return {
+  let ENV = {
     modulePrefix: 'glimmer-styleguide',
     environment: environment,
     assetPath: ''
   };
+
+  return ENV;
 };
