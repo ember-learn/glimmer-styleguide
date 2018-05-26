@@ -1,5 +1,6 @@
-<div class="footer">
+<div class="footer responsive">
   <div class="container">
+
     <div class="footer-info">
       Copyright {{currentYear}}
       <a href="http://tilde.io">Tilde Inc.</a>
@@ -16,13 +17,15 @@
 
     <div class="footer-statement">
       <p class="footer-tagline">Ember.js is free, open source and always will be.</p>
-
       <div class="footer-social">
         <a href="http://twitter.com/emberjs" title="Twitter">
-          <i class="icon-twitter"></i>
+          <img src="{{assetPath}}/images/twitter-logo.svg">
         </a>
         <a href="https://github.com/emberjs/ember.js" title="GitHub">
-          <i class="icon-github"></i>
+          <img src="{{assetPath}}/images/github-logo.svg">
+        </a>
+        <a href="https://ember-community-slackin.herokuapp.com/" title="Slack">
+          <img src="{{assetPath}}/images/slack-logo.svg">
         </a>
       </div>
     </div>
@@ -30,13 +33,28 @@
     <div class="footer-contributions">
       <div class="contributor">
         <p>Hosted by:</p>
-        <a href="https://www.heroku.com/emberjs"><img src="{{assetPath}}/images/heroku-logo.svg" class="logo-heroku"></a>
+        <a href="https://www.heroku.com/emberjs">
+          <img src="{{assetPath}}/images/heroku-logo.svg" class="heroku-logo">
+        </a>
       </div>
       <div class="contributor">
         <p>CDN provided by:</p>
-        <a href="https://www.fastly.com"><img src="{{assetPath}}/images/fastly-logo.svg" class="logo-fastly"></a>
+        <a href="https://www.fastly.com">
+          <img src="{{assetPath}}/images/fastly-logo.svg" class="fastly-logo">
+        </a>
+      </div>
+      <div class="contributor">
+        <p>Tested with:</p>
+        <a href="https://percy.io">
+          <img src="{{assetPath}}/images/percy-logo.svg" class="percy-logo">
+        </a>
+      </div>
+      <div class="contributor">
+        <p>Resolved with:</p>
+        <a href="https://dnsimple.com/resolving/emberjs">
+          <img src="{{assetPath}}/images/dnsimple-logo-dark.svg" class="dnsimple-logo">
+        </a>
       </div>
     </div>
-
   </div>
 </div>

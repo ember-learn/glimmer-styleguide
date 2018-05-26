@@ -19,7 +19,7 @@ module.exports = function(deployTarget) {
 
   if (deployTarget === 'production') {
 
-    ENV.assetPath = `https://glimmer-styleguide.global.ssl.fastly.net/glimmer-styleguide/${gitBranchName}`;
+    // ENV.assetPath = `https://glimmer-styleguide.global.ssl.fastly.net/glimmer-styleguide/${gitBranchName}`;
     ENV.build.environment = 'production';
     // configure other plugins for production deploy target here
     ENV.s3 = {

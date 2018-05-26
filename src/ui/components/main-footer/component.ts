@@ -1,5 +1,4 @@
 import Component from '@glimmer/component';
-// import ENV from '../../../../config/environment';
 
 export default class MainFooter extends Component {
     get currentYear() {
@@ -7,7 +6,7 @@ export default class MainFooter extends Component {
     }
 
     get assetPath() {
-        // return ENV.assetPath;
-        return 'https://glimmer-styleguide.global.ssl.fastly.net/glimmer-styleguide/master';
+      // return '';
+      return 'https://glimmer-styleguide.global.ssl.fastly.net/glimmer-styleguide/master';
     }
 };
