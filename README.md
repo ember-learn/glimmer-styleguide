@@ -1,36 +1,3 @@
 # glimmer-styleguide
 
-[![Build Status](https://travis-ci.org/ember-learn/glimmer-styleguide.svg?branch=enable-ci)](https://travis-ci.org/ember-learn/glimmer-styleguide)
-
-This README outlines the details of collaborating on this Glimmer application.
-A short introduction of this app could easily go here.
-
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Yarn](https://yarnpkg.com/en/)
-* [Ember CLI](https://ember-cli.com/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd glimmer-styleguide`
-* `yarn`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-## Further Reading / Useful Links
-
-* [glimmerjs](http://github.com/tildeio/glimmer/)
-* [ember-cli](https://ember-cli.com/)
+This project was replaced by [ember-styleguide](https://github.com/ember-learn/ember-styleguide), a library of styles and UI components used in Ember's public websites. Please go there to contribute! Thank you!
